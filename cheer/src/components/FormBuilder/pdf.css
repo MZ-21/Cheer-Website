@@ -1,0 +1,189 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.login-container {
+  background: #b48383;
+  border-radius: 10px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 50% !important;
+  margin: auto auto; /* Adjusted margin for aesthetics */
+  padding: 60px; /* Added padding for inner spacing */
+  display:block;
+
+  flex-direction: column;
+  align-items: center; /* Centered content */
+}
+
+.login-header h1 {
+  text-align: center;
+  color: #5A2F0B;
+  margin-bottom: 30px; /* Increased bottom margin for spacing */
+  font-size: 24px; /* Larger font size for the title */
+}
+
+.background-image-container {
+  flex: 1;
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+   
+}
+
+.account-select-container-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Wrap items for smaller screens */
+}
+
+.btn-client-account,
+.btn-other-account {
+  background-color: #4B5320;
+  color: #FFF;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px; /* Rounded pill shape */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Larger font size for better readability */
+}
+
+.btn-client-account:hover,
+.btn-other-account:hover {
+  background-color: #6B8E23;
+}
+
+.btn-client-account.active,
+.btn-other-account.active {
+  box-shadow: 0 0 0 2px #F5F5E1;
+}
+
+.email-input,
+.password-input {
+  display: block;
+  color: #5A2F0B;
+  margin-bottom: 5px;
+  font-size: 16px; /* Slightly larger font size */
+  width: fit-content;
+}
+
+.input {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  padding: 15px; /* Larger padding for input fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px; /* Consistent margin for spacing */
+  font-size: 16px; /* Larger font size for inputs */
+}
+
+.btnStyle {
+  width: calc(100% - 90px); /* Adjust width to account for padding */
+  background-color: #4B5320;
+  color: #FFF;
+  border: none;
+  padding: 15px;
+  border-radius: 20px; /* Rounded pill shape for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  font-size: 16px; /* Larger font size for buttons */
+}
+
+.btnStyle:hover {
+  background-color: #6B8E23;
+}
+
+.btnStyleD {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  background-color: #9f1818;
+  color: #FFF;
+  border: none;
+  padding: 15px;
+  border-radius: 20px; /* Rounded pill shape for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  font-size: 16px; /* Larger font size for buttons */
+}
+
+.btnStyleD:hover {
+  background-color: #8e2323;
+}
+
+
+
+/* Link styles */
+a {
+  color: #6B8E23;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px; /* Added margin for spacing */
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .uploaded{
+    margin-top: 30px;
+   width: 100%;
+   text-align: center;
+    
+  }
+  .output-div{
+    display: flex;
+      justify-content: space-evenly;
+  }
+  .inner-div{
+    display: flex;
+      flex-direction: column;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .pdf-div{
+    padding: 50px;
+    background-color: #dedede;
+    margin-top: 50px;
+  }
+  canvas.react-pdf__Page__canvas {
+    margin-bottom: 50px;
+  }

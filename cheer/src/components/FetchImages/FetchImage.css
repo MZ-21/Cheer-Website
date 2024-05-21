@@ -1,0 +1,51 @@
+.bodyOfGallery {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 100vw; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    overflow: auto; /* Add scrolling if content overflows */
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.image-item {
+    border: 1px solid #e80778;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d8b1da;
+}
+
+.image {
+    width: 100%; /* Set width to 100% to ensure responsiveness */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure images cover the entire space */
+    display: block;
+}
+
+.image-caption {
+    margin-top: 5px;
+    text-align: center;
+    background-color: transparent
+}
+.titleCheer {
+    text-align: center;
+    font-family: Arial, sans-serif; /* Change font family as needed */
+    font-size: 36px; /* Adjust font size as needed */
+    margin-top: 50px; /* Adjust top margin as needed */
+}
+
+.subtitleCheer {
+
+        text-align: center;
+        font-family: Arial, sans-serif; /* Change font family as needed */
+        font-size: 18px; /* Adjust font size as needed */
+        margin-bottom: 50px; /* Adjust bottom margin as needed */
+        background-color: transparent; /* or background-color: white; */
+    
+}
+

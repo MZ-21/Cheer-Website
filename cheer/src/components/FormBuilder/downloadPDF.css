@@ -1,0 +1,286 @@
+:root {
+  --primary-color: #E85848; /* Primary color extracted from the logo for buttons and accents */
+  --secondary-color: #b48383; /* Secondary light color from the logo for hover states */
+  --tertiary-color: #5F9F9F; /* Tertiary color from the logo for backgrounds or accents */
+  --quaternary-color: #F6D8AE; /* Quaternary color from the logo for light backgrounds */
+  --text-color: #305A5A; /* Text color extracted from the darker parts of the logo */
+  --background-color: #FEF8F5; /* Background color, light shade from the logo */
+  --box-shadow-color: rgba(0, 0, 0, 0.1); /* Shadow for boxes, subtle */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.login-container {
+  background: #b48383;
+  border-radius: 10px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 50% !important;
+  margin: auto auto; /* Adjusted margin for aesthetics */
+  padding: 90px; /* Added padding for inner spacing */
+  display:block;
+
+  flex-direction: column;
+  align-items: center; /* Centered content */
+}
+
+.login-header{
+  text-align: center;
+  color: #5A2F0B;
+  margin-bottom: 30px; /* Increased bottom margin for spacing */
+  font-size: 24px; /* Larger font size for the title */
+}
+
+.title{
+  text-align: center;
+  color: #0c0101;
+
+  
+  padding-top: 6%;
+  font-size: 24px; /* Larger font size for the title */
+}
+
+
+.background-image-container {
+  flex: 1;
+  max-width: 80px;
+  display: fl4x;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+   
+}
+
+.account-select-container-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Wrap items for smaller screens */
+}
+
+.btn-client-account,
+.btn-other-account {
+  background-color: #4B5320;
+  color: #FFF;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px; /* Rounded pill shape */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Larger font size for better readability */
+}
+
+.btn-client-account:hover,
+.btn-other-account:hover {
+  background-color: #6B8E23;
+}
+
+.btn-client-account.active,
+.btn-other-account.active {
+  box-shadow: 0 0 0 2px #F5F5E1;
+}
+
+.email-input,
+.password-input {
+  display: block;
+  color: #5A2F0B;
+  margin-bottom: 5px;
+  font-size: 16px; /* Slightly larger font size */
+  width: fit-content;
+}
+
+.input {
+  width: fit-content; /* Adjust width to account for padding */
+  padding: 15px; /* Larger padding for input fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px; /* Consistent margin for spacing */
+  font-size: 16px; /* Larger font size for inputs */
+}
+
+.btnStyle {
+  width: calc(100% - 6px); /* Adjust width to account for padding */
+  background-color: #4B5320;
+  color: #FFF;
+  border: none;
+  padding: 15px;
+  border-radius: 20px; /* Rounded pill shape for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  font-size: 16px; /* Larger font size for buttons */
+}
+
+.btnStyle:hover {
+  background-color: #6B8E23;
+}
+
+.btnStyleD {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  background-color: #9f1818;
+  color: #FFF;
+  border: none;
+  padding: 15px;
+  border-radius: 20px; /* Rounded pill shape for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  font-size: 16px; /* Larger font size for buttons */
+}
+
+.btnStyleD:hover {
+  background-color: #8e2323;
+}
+
+
+
+/* Link styles */
+a {
+  color: #6B8E23;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px; /* Added margin for spacing */
+}
+
+  .uploaded{
+    margin-top: 30px;
+   width: 100%;
+   text-align: center;
+    
+  }
+  .output-div{
+    display: flex;
+      justify-content: space-evenly;
+  }
+  .inner-div{
+    display: flex;
+      flex-direction: column;
+  }
+  
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  background-color: var(--quaternary-color);
+  box-shadow: 0 4px 6px var(--box-shadow-color);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.background-container {
+  position: relative;
+  height: auto;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.background-image-container {
+  background: linear-gradient(135deg, #F4C3C2 0%, #F6D8AE 100%);
+  
+}
+
+
+
+.btnStyle {
+    background-color: #b48383;;
+  
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px; /* Rounded pill shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Larger font size for better readability */
+}
+
+
+.btnStyle:hover {
+    background-color:#F6D8AE;
+}
+
+
+
+
+.content-container {
+  flex: 1 1 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.background-image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.login-overlay {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.login-overlay:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.subtitle,
+.main-paragraph {
+  color: var(--text-color);
+}
+
+.main-paragraph {
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
