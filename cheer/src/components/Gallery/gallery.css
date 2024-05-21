@@ -1,0 +1,66 @@
+.gallery-container {
+    padding: 20px;
+  }
+
+  /* --dark-olive-green: #4B5320;
+  --light-olive-green: #6B8E23;
+  --dark-brown: #5A2F0B;
+  --light-brown: #A0522D;
+  --dark-beige: #D2B48C;
+  --light-beige: #F5F5E1;
+  --beige: #ede9d5;
+} */
+.bodyOfGalleryAdmin {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #ede9d5,#5A2F0B,46%,#F5F5E1 100%); 
+    width: 100vw; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    overflow: auto; /* Add scrolling if content overflows */
+}
+  
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .linkG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+ 
+    background-color: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titleCheerA {
+  text-align: center;
+  font-family: Arial, sans-serif; /* Change font family as needed */
+  font-size: 36px; /* Adjust font size as needed */
+  margin-top: 50px; /* Adjust top margin as needed */
+}
+
+.subtitleCheerA {
+
+      text-align: center;
+      font-family: Arial, sans-serif; /* Change font family as needed */
+      font-size: 18px; /* Adjust font size as needed */
+      margin-bottom: 50px; /* Adjust bottom margin as needed */
+      background-color: transparent; /* or background-color: white; */
+  
+}
