@@ -1,0 +1,91 @@
+/* General page styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #DDBEA9; /* Soft peach for a warm, welcoming background */
+  color: #6B4F4F; /* Deep brown for readable, contrasted text */
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6; /* Improve readability with more space between lines */
+}
+
+h2, h3 {
+  color: #6B4F4F; /* Maintaining the color for headings */
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* Improved form styling for clarity and visual appeal */
+form {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+}
+
+/* Unified input fields and buttons for a cohesive look */
+input[type="file"],
+input[type="text"],
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #6B4F4F;
+  background-color: #F2D7D5;
+  color: #6B4F4F;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Distinct button styling for actions */
+button {
+  background-color: #6B4F4F;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #5A3E3E; /* Slightly lighter brown for hover */
+}
+
+/* Enhanced upload section for clarity and consistency */
+.upload-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow for emphasis */
+}
+
+/* Upload status message improvements for better visibility */
+.upload-status, p {
+  background-color: #F2D7D5;
+  color: #6B4F4F;
+  padding: 10px;
+  border-radius: 4px;
+  border-left: 4px solid #6B4F4F;
+  margin-top: 10px;
+}
+
+/* Refined PDF document and page display styles for consistency */
+.react-pdf__Document {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.react-pdf__Page {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.react-pdf__Page canvas {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Updated shadow for a sleek look */
+}

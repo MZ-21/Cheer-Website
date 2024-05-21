@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #ede9d5;
+}
+
+.login-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: transparent;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 100px 100px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-account-select-container-login {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.login-btn-client-account,
+.login-btn-other-account {
+    background-color: #4b5320;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.login-btn-client-account:hover,
+.login-btn-other-account:hover {
+    background-color: #5c8e23;
+}
+.login-input-container {
+    margin-bottom: 40px; 
+}
+
+.login-input {
+    width: 100%;
+    padding: 20px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 20px; 
+}
+
+.login-signin-btn {
+    width: 100%;
+    background-color: #53202b;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.login-signin-btn:hover {
+    background-color: #8e2335;
+}
+
+.msg-container {
+    color: red;
+    margin-top: 20px;
+}
+
+p {
+    color: #6b8e23;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}

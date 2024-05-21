@@ -1,0 +1,81 @@
+:root {
+    --dark-olive-green: #4B5320;
+    --light-olive-green: #6B8E23;
+    --dark-brown: #5A2F0B;
+    --light-brown: #A0522D;
+    --dark-beige: #D2B48C;
+    --light-beige: #F5F5E1;
+    --beige: #ede9d5;
+}
+
+.nav-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6d4d4d;
+    padding: 10px;
+    padding-bottom:10px;
+}
+
+.nav-logo-title {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 70px;
+    color: #F5F5E1;
+}
+
+.nav-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #684949;
+    padding-bottom: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 20px;
+    color: #ece9d4;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #F5F5E1;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-item {
+        margin-left: 10px;
+    }
+
+    .nav-link {
+        padding: 8px 10px;
+    }
+}
+
+.nav-link:hover {
+    background-color: #533c3c;
+}
+
+.navbar-sub-title {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #F5F5E1;
+}
+
