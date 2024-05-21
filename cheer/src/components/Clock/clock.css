@@ -1,0 +1,42 @@
+.clockin-Btn,
+.clockout-Btn,
+.clock-logout-Btn {
+    background-color: #4B5320;
+    color: #FFF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+.clockin-Btn:hover,
+.clockout-Btn:hover {
+    background-color: #6B8E23;
+}
+
+.clockin-Btn:disabled,
+.clockout-Btn:disabled {
+    background-color: #494949;
+}
+
+.clock-logout-Btn {
+    background-color: #532020;
+    color: #FFF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.clock-logout-Btn:hover {
+    background-color: #8e2323;
+}
+
+.main {
+    padding: 15px;
+}

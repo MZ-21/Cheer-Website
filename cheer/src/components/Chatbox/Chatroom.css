@@ -1,0 +1,139 @@
+* {
+    border: none;
+}
+
+.header {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.link-to-main {
+    margin: 0px;
+    width: 80px;
+    height: 65px;
+    border: none;
+    font-size: 25px;
+}
+
+.back-button {
+    width: 80px;
+    border: none;
+    height: 65px;
+    margin: 0px;
+}
+
+.name-header {
+    width: 100%;
+    margin: 0px;
+    border: none;
+    border-radius: 0%;
+    font-size: 30px;
+    background-color: #6b4f4f;
+    color: #f2d7d5;
+}
+
+.chatroom-body {
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.contacts {
+    width: 25%;
+    height: 512px;
+    overflow: auto;
+}
+
+.receiver-name {
+    border: none;
+    border-radius: 0%;
+    height: 47px;
+    font-weight: bold;
+    margin: 0px;
+    background-color: rgb(83, 50, 39);
+    color:#f2d7d5
+}
+
+.client {
+    background-color: transparent;
+    padding: 0;
+}
+
+.client div p {
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.chatbox {
+    border: 1px solid black;
+    height: 512px;
+    width: 75%;
+    position: relative;
+}
+
+.messages {
+    height: 442px;
+}
+
+.message-log {
+    height: 393px;
+    overflow: auto;
+    background-color: white;
+}
+
+.message-log div p {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.sent {
+    margin-left: 50%;
+    background-color: #eed8d5;
+    border-radius: 10px;
+}
+
+.received {
+    margin-right: 50%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.inputbox {
+    display: flex;
+    background-color: #f5efef
+}
+
+input.textbox {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    height: 50px;
+    width: calc(100% - 20px);
+}
+
+.send {
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0;
+    width: calc(33% - 20px);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8c6e6e;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6b4f4f;
+}
