@@ -1,0 +1,159 @@
+.event-form-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999; /* Ensure the form appears on top of other content */
+}
+
+.event-form {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 25%;
+  display: grid;
+}
+
+.event-form-header {
+  background-color: #f0f4f8;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.bottom-date-event-form {
+  font-family: 'Material Icons Outlined';
+  color: #000000;
+  margin: 0px;
+  /* position: relative; */
+  /* margin-top: 100px; */
+
+}
+
+.icons {
+  font-size: 1.5rem; /* Adjust icon size */
+  color: #5f6368; /* Google Calendar's header icons color */
+  cursor: pointer;
+}
+.event-form-input-time{
+  width: fit-content;
+}
+
+.event-form-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.event-form-header button:hover .icons {
+  color: #202124; /* Hover color */
+}
+
+.div-container-event-box {
+  padding: 1rem;
+}
+
+.grid-event-container-box {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.grid-event-container-box input {
+  border: none;
+  border-bottom: 1px solid #dadce0; /* Border color */
+  padding: 0.5rem;
+  outline: none;
+}
+
+.grid-event-container-box input:focus {
+  border-bottom: 2px solid #1a73e8; /* Focus border color */
+}
+
+.event-form-input-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #202124; /* Text color */
+}
+
+.event-form-input-description {
+  color: #5f6368; /* Text color */
+}
+
+.color-labels-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.color-labels {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.check-icon {
+  font-size: 1rem; /* Adjust size */
+  color: #fff; /* Icon color */
+}
+
+.event-form-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.event-form-footer-submit-btn {
+  background-color: #1a73e8; /* Button color */
+  color: #fff; /* Text color */
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-form-footer-submit-btn:hover {
+  background-color: #0d47a1; /* Hover color */
+}
+
+@media only screen and (max-width: 768px) {
+  .event-form {
+      width: 90%;
+  }
+}
+.indigo{
+  background-color: rgb(160, 138, 205);
+}
+.gray{
+  background-color: gray;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: blue;
+}
+.red{
+  background-color: red;
+}
+.purple{
+  background-color: purple;
+}
+.schedule-icon-form-event {
+  font-family: 'Material Icons Outlined';
+  color: #000000;
+  display: block;
+  width: 20px;
+  margin: auto auto;
+
+}

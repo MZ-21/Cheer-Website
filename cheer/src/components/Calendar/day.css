@@ -1,0 +1,48 @@
+.header-days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-header-days{
+    border: 1px solid #e5e5e5; /* Border color: gray-200 */
+    display: flex;
+    flex-direction: column;
+}
+.p-tag-weekday{
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+
+}
+.p-text-DD{
+    padding: 0.25rem; 
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+}
+.blue-days {
+    background-color: #3b82f6; 
+    color: #ffffff;
+    border-radius: 9999px; 
+    width: 1.75rem;
+    height: 1.75rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  
+}
+
+.event-box-display {
+    background: rgb(188, 164, 164);
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #f7f2f2;
+    font-size: 0.875rem; /* equivalent to 14px for text-sm */
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}

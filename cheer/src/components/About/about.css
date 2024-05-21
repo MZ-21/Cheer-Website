@@ -1,0 +1,118 @@
+
+
+:root {
+    --dark-olive-green: #4B5320;
+    --light-olive-green: #6B8E23;
+    --dark-brown: #5A2F0B;
+    --light-brown: #A0522D;
+    --dark-beige: #D2B48C;
+    --light-beige: #F5F5E1;
+    --beige: #ede9d5;
+    --olive: #617143;
+  }
+  
+  .main {
+    background-color: var(--light-beige);
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    filter: brightness(50%);
+  }
+  
+  .overlay-text {
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, 100%); 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 50px; 
+    text-align: center;
+    font-weight: bold;
+  }
+
+.about-container {
+    background-color:var(--light-beige);
+}
+
+.catalog-container {
+    background-color: var(--light-beige);
+    display: flex;
+    justify-content: space-between; /* Spread items apart equally */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.cheerconnections-container{
+    width: calc(33.33% - 20px); /* Calculate width for each container */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.cheergroup-container{
+    width: calc(33.33% - 20px); /* Calculate width for each container */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+    background-color: var(--beige);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.cheerworks-container {
+    width: calc(33.33% - 20px); /* Calculate width for each container */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 20px;
+    background-color: var(--olive);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.cheerworks-description {
+    color: #ede9d5;
+}
+
+.sub-title {
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -100%); 
+    color: var(--dark-olive-green);
+    padding: 20px; 
+    font-size: 50px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.olli-container {
+    max-width: 75%;
+    padding: 100px;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center;
+}
+
+.olli-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.text-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.olli-description {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.visionstatement-container {
+    font-style: italic;
+    padding: 20px;
+}
+

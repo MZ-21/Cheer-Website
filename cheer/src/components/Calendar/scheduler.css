@@ -1,0 +1,12 @@
+
+.h-screen {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-month {
+    display: flex;
+    flex: 1;
+  }
